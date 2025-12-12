@@ -90,7 +90,7 @@ print(df.head())
 
 # SAMPLE ENCODING 
 encoding_preview = pd.get_dummies(df[["citizenship_country", "application_type", "season"]]).head()
-
+print(encoding_preview)
 
 # Save final processed dataset
 output_path = "Milestone1/Dataset/processed_dataset.csv"
